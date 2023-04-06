@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script type="module" src="./javascript/logic.js" defer></script>
+		<script type="module" src="./javascript/dom.js" defer></script>
+		<title>Morse Code Translator</title>
+	</head>
+	<body>
+		<h1>Welcome to the Morse Code Translator.</h1>
+		<div class="prompt-for-translate">
+			<h3 class="prompt-for-translate__heading">What would you like to translate?</h3>
+			<textarea type="text" class="prompt-for-translate__user-input"></textarea>
+			<button type="submit" class="prompt-for-translate__submit-input">Translate</button>
+		</div>
+		<div class="translated-container">
+			<h3 class="translated-container__heading">Your message:</h3>
+			<p class="translated-container__translated-message"></p>
+			<p class="translated-container__warning-message"></p>
+			<button type="submit" class="translated-container__translate-again">Translate Again</button>
+		</div>
+		<footer>This translator was brought to you by Charise Wills</footer>
+	</body>
+</html>
