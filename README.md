@@ -8,3 +8,7 @@ As part of this project, I created:
 - A function to detect the input language. If the input language was not English or Morse, an error message is displayed to the user to use either English or Morse. 
 - Functions to translate any length string into the opposite language, given the detected source language. Error handling was used to ignore invalid parameters during the translation, but return a warning message to the user about which character/s were not translated.
 - A Jest test suite for the logic functions that tested both predictable inputs and edge cases. 
+
+To view the project, visit:
+
+https://cwills18.github.io/Morse-Code-Translator/
